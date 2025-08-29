@@ -87,12 +87,3 @@ python har_to_assets_json.py <existing.json> <file.har> [output.json]
    ```bash
    pip install -r requirements.txt
    ```
-
-## License
-
-[Specify your license here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
-
