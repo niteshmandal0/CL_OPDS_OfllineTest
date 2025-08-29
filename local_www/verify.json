@@ -1,0 +1,11 @@
+{
+  "found_urls_count": 477,
+  "downloads_total_bytes": 20246703,
+  "download_failures": [
+    "https://curiousreader-respect-ftm.web.app/appIcons/ftm_hindi.png",
+    "https://curiousreader-respect-ftm.web.app/lessons/cr_lang/ftm_hi_2.json"
+  ],
+  "rewritten_count": 479,
+  "removed_blocked": 6,
+  "rewritten_manifest": "/home/nitesh-kumar/Documents/binProjects/cl-offline-Test/test3/local_www/rewritten-manifests/ftm_hi_2_local.json"
+}

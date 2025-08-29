@@ -1,0 +1,1290 @@
+{
+  "@context": [
+    "https://readium.org/webpub-manifest/context.jsonld",
+    "https://schema.org"
+  ],
+  "metadata": {
+    "@type": "https://schema.org/Book",
+    "title": "1",
+    "author": "Curious Reader",
+    "identifier": "https://curiousreader-respect-ftm.web.app/?lang=english&lesson_id=1",
+    "language": "en",
+    "modified": "2025-08-25T09:56:25.239977+00:00",
+    "published": "2025-08-25T09:56:25.239977+00:00",
+    "description": "Interactive learning lesson: 1",
+    "subject": [
+      "Education",
+      "Learning"
+    ],
+    "readingProgression": "ltr"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://curious-reader.web.app/lessons/cr_lang/ftm_en_1.json",
+      "type": "application/webpub+json"
+    },
+    {
+      "rel": "http://opds-spec.org/acquisition/open-access",
+      "href": "https://curiousreader-respect-ftm.web.app/?lang=english&lesson_id=1",
+      "type": "text/html"
+    }
+  ],
+  "images": [
+    {
+      "href": "https://curious-reader.web.app/appIcons/ftm_english.png",
+      "type": "image/png",
+      "height": 128,
+      "width": 128
+    }
+  ],
+  "readingOrder": [
+    {
+      "type": "text/html",
+      "href": "https://curiousreader-respect-ftm.web.app/?lang=en&lesson_id=1",
+      "title": "1"
+    }
+  ],
+  "resources": [
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/?lang=afrikaans&lesson_id=1",
+      "type": "text/html"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/index.css",
+      "type": "text/css"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/loadingImg.gif",
+      "type": "image/gif"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/idle4.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/feedTheMonster.js",
+      "type": "text/javascript"
+    },
+    {
+      "href": "https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js",
+      "type": "application/javascript"
+    },
+    {
+      "href": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "application/x-javascript"
+    },
+    {
+      "href": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "application/x-javascript"
+    },
+    {
+      "href": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:602402387941:web:a63f4eaddc949f539de10c/webConfig",
+      "type": "application/json"
+    },
+    {
+      "href": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:602402387941:web:a63f4eaddc949f539de10c/webConfig",
+      "type": "application/json"
+    },
+    {
+      "href": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:602402387941:web:a63f4eaddc949f539de10c/webConfig",
+      "type": "text/html"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/fonts/Consolas.ttf",
+      "type": "font/ttf"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/fonts/Atma-SemiBold.ttf",
+      "type": "font/ttf"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/intro.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Cheering-02.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Cheering-03.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Cheering-01.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/onDrag.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/timeout.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/LevelWinFanfare.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/LevelLoseFanfare.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/ButtonClick.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Monster%20Spits%20wrong%20stones-01.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Disapointed-05.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/MonsterSpit.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/Eat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/PointsAdd.wav",
+      "type": "audio/wav"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/are-you-sure.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-FVLSN7D7NM",
+      "type": "application/javascript"
+    },
+    {
+      "href": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-FVLSN7D7NM",
+      "type": "application/javascript"
+    },
+    {
+      "href": "https://connect.facebook.net/signals/config/3165489767069069?v=2.9.226&r=stable&domain=curiousreader-respect-ftm.web.app&hme=825b619bbc176436932a2e4145098d1010345eea23437a3ceb8bb05f4da8ba89&ex_m=85%2C146%2C127%2C18%2C120%2C59%2C40%2C121%2C66%2C58%2C134%2C74%2C13%2C84%2C26%2C115%2C106%2C64%2C67%2C114%2C131%2C93%2C136%2C7%2C3%2C4%2C6%2C5%2C2%2C75%2C83%2C137%2C211%2C158%2C53%2C216%2C213%2C214%2C46%2C173%2C25%2C63%2C220%2C219%2C161%2C28%2C52%2C8%2C55%2C79%2C80%2C81%2C86%2C110%2C27%2C24%2C113%2C109%2C108%2C128%2C65%2C130%2C129%2C42%2C111%2C51%2C103%2C12%2C133%2C37%2C202%2C204%2C168%2C21%2C22%2C23%2C15%2C16%2C36%2C33%2C34%2C70%2C76%2C78%2C91%2C119%2C122%2C38%2C92%2C19%2C17%2C97%2C60%2C31%2C124%2C123%2C125%2C116%2C20%2C30%2C50%2C90%2C132%2C61%2C29%2C183%2C154%2C260%2C200%2C144%2C186%2C179%2C88%2C112%2C69%2C101%2C45%2C39%2C99%2C100%2C105%2C49%2C14%2C107%2C98%2C56%2C41%2C94%2C44%2C47%2C0%2C82%2C135%2C1%2C104%2C11%2C102%2C9%2C48%2C77%2C54%2C126%2C57%2C96%2C73%2C72%2C43%2C117%2C71%2C68%2C62%2C95%2C87%2C35%2C118%2C32%2C89%2C10%2C138",
+      "type": "application/x-javascript"
+    },
+    {
+      "href": "https://connect.facebook.net/signals/config/3165489767069069?v=2.9.226&r=stable&domain=curiousreader-respect-ftm.web.app&hme=825b619bbc176436932a2e4145098d1010345eea23437a3ceb8bb05f4da8ba89&ex_m=85%2C146%2C127%2C18%2C120%2C59%2C40%2C121%2C66%2C58%2C134%2C74%2C13%2C84%2C26%2C115%2C106%2C64%2C67%2C114%2C131%2C93%2C136%2C7%2C3%2C4%2C6%2C5%2C2%2C75%2C83%2C137%2C211%2C158%2C53%2C216%2C213%2C214%2C46%2C173%2C25%2C63%2C220%2C219%2C161%2C28%2C52%2C8%2C55%2C79%2C80%2C81%2C86%2C110%2C27%2C24%2C113%2C109%2C108%2C128%2C65%2C130%2C129%2C42%2C111%2C51%2C103%2C12%2C133%2C37%2C202%2C204%2C168%2C21%2C22%2C23%2C15%2C16%2C36%2C33%2C34%2C70%2C76%2C78%2C91%2C119%2C122%2C38%2C92%2C19%2C17%2C97%2C60%2C31%2C124%2C123%2C125%2C116%2C20%2C30%2C50%2C90%2C132%2C61%2C29%2C183%2C154%2C260%2C200%2C144%2C186%2C179%2C88%2C112%2C69%2C101%2C45%2C39%2C99%2C100%2C105%2C49%2C14%2C107%2C98%2C56%2C41%2C94%2C44%2C47%2C0%2C82%2C135%2C1%2C104%2C11%2C102%2C9%2C48%2C77%2C54%2C126%2C57%2C96%2C73%2C72%2C43%2C117%2C71%2C68%2C62%2C95%2C87%2C35%2C118%2C32%2C89%2C10%2C138",
+      "type": "application/x-javascript"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/manifest.json",
+      "type": "application/json"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/favicon.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=page_view&_ee=1&ep.origin=firebase&tfd=2511",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_prs=gs&_eu=AAAAAAQ&_s=2&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=session_start&_c=1&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&epn.days_since_last=0.014&_et=216&tfd=2512",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=page_view&_ee=1&ep.origin=firebase&tfd=2511",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_prs=gs&_eu=AAAAAAQ&_s=2&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=session_start&_c=1&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&epn.days_since_last=0.014&_et=216&tfd=2512",
+      "type": "text/html"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/fantastic.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/great.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/amazing.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/fantastic.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/great.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/amazing.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/r.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/a.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/b.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/d.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/t.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/k.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/n.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/v.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bad.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/lang/afrikaans/ftm_afrikaans.json",
+      "type": "application/json"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/r.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/a.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/b.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/d.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/t.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/k.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/n.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/v.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bad.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=1619540818.1756116024&dbk=14848977809037276966&dma=0&en=session_start&gtm=45je58k1v899027762za200zd899027762&npa=0&tid=G-FVLSN7D7NM&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%3F",
+      "type": "text/plain"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kan.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nar.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/van.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/m.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/l.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/g.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/i.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dit.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kan.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bak.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nar.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/van.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kat.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/m.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/l.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/g.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/i.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dit.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dik.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lip.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rig.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/gif.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bid.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lig.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mik.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lid.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/s.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/u.mp3",
+      "type": "text/html"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/h.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/j.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dik.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lip.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rig.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/gif.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bid.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lig.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mik.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lid.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/s.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/u.mp3",
+      "type": "text/html"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/h.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/j.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sku.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/buk.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/o.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/son.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sku.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/buk.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/kug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lus.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lug.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/o.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/son.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ton.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mot.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lot.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rol.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/glo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/e.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ton.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mot.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lot.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rol.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/vog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/glo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/e.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/f.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/elk.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sel.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/gek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/het.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/tel.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/hen.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nes.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/hef.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bed.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/f.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/elk.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/sel.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/gek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/het.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/tel.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/hen.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nes.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/hef.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bed.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/uit.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ie.mp3",
+      "type": "text/html"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/w.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/die.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/wie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/wei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/dui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/lui.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/uit.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ie.mp3",
+      "type": "text/html"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/w.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/die.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/wie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/mei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/wei.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&_s=3&tfd=9706",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&_s=3&tfd=9706",
+      "type": "text/plain"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/seil.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/jou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oud.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oop.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ook.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/seil.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eie.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oo.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/jou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oud.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/bou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/rou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nou.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oos.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oop.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ook.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ee.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oe.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nee.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/see.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eet.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/een.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/toer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/doek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/boek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/soek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oog.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/ee.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/oe.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/nee.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/see.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eet.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/een.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/eer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/toer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/doek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/boek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/soek.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/cloud_01.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/cloud_02.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/cloud_03.png",
+      "type": "image/png"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/r.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/pause_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/timer_empty.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/timer.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/timer_full.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/tutorial_hand.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/stone_pink.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/promptTextBg.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/promptPlayButton.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/levels_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/bar_empty_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/bar_full_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/eat11.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/idle11.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/spit11.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/drag11.png",
+      "type": "image/png"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/close_btn.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/retry_btn.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/map_btn.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/popup_bg_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/confirm_btn.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/bg_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/hill_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/Totem_v02_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/images/fence_v01.webp",
+      "type": "image/webp"
+    },
+    {
+      "href": "https://curiousreader-respect-ftm.web.app/assets/audios/CorrectStoneFinal.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/boer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/koer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/woes.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/boer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/koer.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/woes.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&_s=4&tfd=14743",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&_s=4&tfd=14743",
+      "type": "text/plain"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/a.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=puzzle_completed&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&ep.success_or_failure=failure&epn.level_number=0&epn.puzzle_number=0&ep.item_selected=TIMEOUT&ep.target=r&ep.foils=t%2Cr%2Cd&epn.response_time=109.632&_et=5056&tfd=126341",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=puzzle_completed&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&ep.success_or_failure=failure&epn.level_number=0&epn.puzzle_number=0&ep.item_selected=TIMEOUT&ep.target=r&ep.foils=t%2Cr%2Cd&epn.response_time=109.632&_et=5056&tfd=126341",
+      "type": "text/plain"
+    },
+    {
+      "href": "http://localhost:8000/lang/afrikaans/audios/b.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=6&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=puzzle_completed&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&ep.success_or_failure=failure&epn.level_number=0&epn.puzzle_number=1&ep.item_selected=TIMEOUT&ep.target=a&ep.foils=a%2Cb%2Cb&epn.response_time=19.071&_et=10355&tfd=145440",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVLSN7D7NM&gtm=45je58k1v899027762za200zd899027762&_p=1756117886101&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105102050~105399921~105399923&_fid=fOjIaCOCDqlJFwnE0uZGvy&cid=1619540818.1756116024&ul=en-us&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.127%7CChromium%3B139.0.7258.127&uamb=0&uam=&uap=Linux&uapv=6.14.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=6&sid=1756116023&sct=1&seg=1&dl=https%3A%2F%2Fcuriousreader-respect-ftm.web.app%2F%3Flang%3Dafrikaans%26lesson_id%3D1&dt=Feed%20The%20Monster&en=puzzle_completed&_ee=1&ep.origin=firebase&ep.cr_user_id=&ep.ftm_language=afrikaans&epn.profile_number=0&ep.version_number=v1.0.40&ep.json_version_number=3.5&ep.success_or_failure=failure&epn.level_number=0&epn.puzzle_number=1&ep.item_selected=TIMEOUT&ep.target=a&ep.foils=a%2Cb%2Cb&epn.response_time=19.071&_et=10355&tfd=145440",
+      "type": "text/plain"
+    }
+  ]
+}
