@@ -28,11 +28,9 @@ def collect_audio_filenames(level_number):
                 if audio_url:
                     audio_filenames.add(os.path.basename(audio_url.strip()))
 
-    # Always include FeedbackAudios and OtherAudios
+    # Always include FeedbackAudios
     extra_audio_urls = []
     for url in english_data.get("FeedbackAudios", []):
-        extra_audio_urls.append(replace_domain(url))
-    for url in english_data.get("OtherAudios", {}).values():
         extra_audio_urls.append(replace_domain(url))
 
     extra_audio_filenames = set(os.path.basename(url) for url in extra_audio_urls)
@@ -89,7 +87,7 @@ for i in range(1, 150):  # you can extend range(1, N+1) if more files exist
 
         data["resources"] = processed_resources
 
-    # Ensure FeedbackAudios and OtherAudios are present
+    # Ensure FeedbackAudios are present
     existing_audio_hrefs = set(
         res.get("href") for res in data["resources"] if is_audio_resource(res)
     )
